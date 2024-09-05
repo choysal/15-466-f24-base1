@@ -6,7 +6,7 @@ Design: This game involves a raccoon that tries to catch as many falling apples 
 
 Screen Shot:
 
-![Screen Shot](screenshot.png)
+![Screen Shot](screenshot_final.png)
 
 How My Asset Pipeline Works:
 
