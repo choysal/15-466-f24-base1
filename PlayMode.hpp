@@ -29,6 +29,19 @@ struct PlayMode : Mode {
 	//player position:
 	glm::vec2 player_at = glm::vec2(0.0f);
 
+	//apple structs
+	enum AppleType { NO_APPLE, GOOD_APPLE, BAD_APPLE };
+
+	//glm::vec2 apple_at = glm::vec2(0.0f);
+	
+	struct Apple{
+		AppleType appletype;
+		glm::vec2 apple_at; //apple position
+		bool consumed; //update flag once apple is consumed by user, needs to be removed
+	};
+
+	std::array<Apple, 16> apples; //at most 16 apples on screen at a time..? probably less. 16 to be safe
+
 	//----- drawing handled by PPU466 -----
 
 	PPU466 ppu;
