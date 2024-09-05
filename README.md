@@ -8,7 +8,7 @@ Screen Shot:
 
 ![Screen Shot](screenshot.png)
 
-How Your Asset Pipeline Works:
+How My Asset Pipeline Works:
 
 asset_gen.py is a python script that processes all the game source assets into necessary data that is passed through the pipeline and loaded into the PPU.
 
@@ -36,11 +36,13 @@ the background can be drawn
 the player and additional sprites can be drawn, given the attribute value and the index value of the palette and tile locations in the tables after the pipeline processed the source files (these are added to the end, after the background palettes and tiles).
 
 Additional Credit:
+
 the asset_gen.py file used in the pipeline is largley authored by jmarkaba@andrew.cmu.edu, and then 
 mandyh@andrew.cmu.edu and I worked together to conceptualize how to modify the file to our individual
 needs- though we had different games, we worked together so the general idea of the additions are similar.
 
 Source files (authored by me (choysal) using gimp):
+
 [background](assets/bg_final.png)
 [raccoon sprite](assets/raccoon_new.png)
 [good apple sprite](assets/good_apple.png)
